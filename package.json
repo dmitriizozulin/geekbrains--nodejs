@@ -1,0 +1,25 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmitriizozulin/geekbrains--nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmitriizozulin/geekbrains--nodejs/issues"
+  },
+  "homepage": "https://github.com/dmitriizozulin/geekbrains--nodejs#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "node-wav-player": "^0.2.0"
+  }
+}
