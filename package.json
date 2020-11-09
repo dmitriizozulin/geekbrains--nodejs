@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/dmitriizozulin/geekbrains--nodejs#readme",
   "dependencies": {
-    "colors": "^1.4.0",
-    "node-wav-player": "^0.2.0"
+    "minimist": "^1.2.5",
+    "random": "^2.2.0"
   }
 }
