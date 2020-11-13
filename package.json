@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/dmitriizozulin/geekbrains--nodejs#readme",
   "dependencies": {
-    "minimist": "^1.2.5",
-    "random": "^2.2.0"
+    "axios": "^0.21.0",
+    "express": "^4.17.1",
+    "puppeteer": "^5.4.1"
   }
 }
