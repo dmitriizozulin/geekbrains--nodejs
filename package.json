@@ -20,7 +20,13 @@
   "homepage": "https://github.com/dmitriizozulin/geekbrains--nodejs#readme",
   "dependencies": {
     "axios": "^0.21.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
     "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
     "puppeteer": "^5.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
   }
 }
