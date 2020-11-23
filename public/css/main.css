@@ -1,0 +1,19 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
+
+.form label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
+
+.form label.inline {
+  flex-direction: row;
+}
+
+.form input[type='submit'] {
+  max-width: 60px;
+}
