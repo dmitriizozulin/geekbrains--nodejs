@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Actors List
+    link(rel="stylesheet", href="/css/main.css")
+  body
+    a(href="/") Home
+    if isAuthed
+      form.form(action="/actors/add", method="POST")
+        label
+          span Full name
+          input(type="text", name="fullName", placeholder="Adam Levine")
+        input(type="submit", value="Add")
+
+    ul
+      if actors
+        each actor in actors
+          li
+            span= actor.first_name + ' '
+            span= actor.last_name + '\n'
+
+            if isAuthed
+              a(href="/actors/remove/" + actor.id) Remove actor
+      else
+        h1 Theres no actors!

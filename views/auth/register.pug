@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Register
+    link(rel="stylesheet", href="/css/main.css")
+  body
+    form.form(action="/auth/signup", method="POST")
+      label
+        span Username
+        input(type="text", name="username", placeholder="Username")
+      label
+        span Password
+        input(type="password", name="password", placeholder="Password")
+      label
+        span Repeat password
+        input(type="password", name="repeatPassword", placeholder="Password")
+      input(type="submit", value="Login")
+    a(href="/auth/login") Login
